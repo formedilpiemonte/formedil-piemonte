@@ -1,0 +1,41 @@
+/* src/components/MapSection.css */
+.map-section {
+  background-color: var(--light-gray);
+}
+
+.map-container {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  background-color: var(--white);
+}
+
+.map-loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-gray);
+  font-size: 1.1rem;
+}
+
+.schools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .map-container {
+    height: 400px;
+  }
+  
+  .schools-grid {
+    grid-template-columns: 1fr;
+  }
+}
