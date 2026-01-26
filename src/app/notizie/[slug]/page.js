@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 // Importa i dati delle news
-import newsData from '../../../../public/data/news.json'
+import newsData from '@/data/news.json'
 
 export async function generateStaticParams() {
   return newsData.map((news) => ({
