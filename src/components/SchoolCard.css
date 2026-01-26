@@ -1,0 +1,85 @@
+/* src/components/SchoolCard.css */
+.school-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.school-card:hover,
+.school-card.selected {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px);
+  border-left-color: var(--accent-orange);
+}
+
+.school-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.school-header h3 {
+  font-size: 1.3rem;
+  color: var(--primary-blue);
+  font-weight: 600;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.school-province {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.school-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.school-detail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-gray);
+  font-size: 0.9rem;
+}
+
+.school-detail a {
+  color: var(--primary-blue);
+  transition: color 0.3s ease;
+}
+
+.school-detail a:hover {
+  color: var(--accent-orange);
+}
+
+.school-description {
+  color: var(--text-gray);
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.school-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-orange);
+  font-weight: 600;
+  transition: gap 0.3s ease;
+}
+
+.school-card:hover .school-link {
+  gap: 8px;
+}
