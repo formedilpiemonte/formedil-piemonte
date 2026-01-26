@@ -1,0 +1,33 @@
+// public/data/news.json
+[
+  {
+    "id": 1,
+    "slug": "formedil-piemonte-sicurezza-cantieri",
+    "titolo": "FORMEDIL Piemonte: priorità alla sicurezza nei cantieri",
+    "data": "2025-01-15",
+    "categoria": "Sicurezza",
+    "sommario": "La formazione continua rappresenta lo strumento principale per la prevenzione degli infortuni sul lavoro nel settore delle costruzioni.",
+    "contenuto": "FORMEDIL Piemonte ribadisce il proprio impegno nella promozione della cultura della sicurezza attraverso percorsi formativi qualificati. La collaborazione con le parti sociali e gli enti territoriali consente di sviluppare programmi in linea con le esigenze del territorio regionale.",
+    "immagine": "/images/news-placeholder.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "orientamento-giovani-edilizia",
+    "titolo": "Orientamento al lavoro: l'edilizia incontra i giovani",
+    "data": "2025-01-10",
+    "categoria": "Giovani",
+    "sommario": "Iniziative di orientamento per avvicinare le nuove generazioni alle professioni del settore delle costruzioni.",
+    "contenuto": "FORMEDIL Piemonte promuove azioni coordinate con gli istituti scolastici del territorio per valorizzare le competenze tecniche e le opportunità occupazionali offerte dal comparto edile piemontese.",
+    "immagine": "/images/news-placeholder.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "formazione-continua-imprese",
+    "titolo": "Formazione continua: supporto alle imprese edili",
+    "data": "2025-01-05",
+    "categoria": "Imprese",
+    "sommario": "Servizi formativi per la qualificazione professionale dei lavoratori e il consolidamento delle competenze aziendali.",
+    "contenuto": "L'ente regionale offre percorsi di aggiornamento professionale destinati a imprese e lavoratori, in collaborazione con il sistema bilaterale e le organizzazioni di categoria.",
+    "immagine": "/images/news-placeholder.jpg"
+  }
+]
