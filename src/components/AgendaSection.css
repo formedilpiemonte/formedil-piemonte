@@ -1,0 +1,22 @@
+/* src/components/AgendaSection.css */
+.agenda-section {
+  background-color: var(--light-gray);
+}
+
+.agenda-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.agenda-cta {
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .agenda-grid {
+    grid-template-columns: 1fr;
+  }
+}
