@@ -1,0 +1,89 @@
+/* src/components/QuickAccess.css */
+.quick-access {
+  padding: 60px 0;
+  margin-top: -80px;
+  position: relative;
+  z-index: 10;
+}
+
+.quick-access-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.quick-access-card {
+  background: var(--white);
+  padding: 35px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid var(--card-color);
+}
+
+.quick-access-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--card-color);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.quick-access-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.quick-access-card:hover::before {
+  transform: scaleX(1);
+}
+
+.quick-access-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.quick-access-card h3 {
+  font-size: 1.3rem;
+  color: var(--primary-blue);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.quick-access-card p {
+  color: var(--text-gray);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.quick-access-arrow {
+  color: var(--card-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.quick-access-card:hover .quick-access-arrow {
+  transform: translateX(5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quick-access {
+    margin-top: -60px;
+    padding: 40px 0;
+  }
+  
+  .quick-access-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
