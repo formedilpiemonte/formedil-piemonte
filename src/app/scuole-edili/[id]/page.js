@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 // Importa i dati
-import scuoleData from '../../../../public/data/scuole.json'
-import corsiData from '../../../../public/data/corsi.json'
+import newsData from '@/data/scuole.json'
+import newsData from '@/data/corsi.json'
 
 export async function generateStaticParams() {
   return scuoleData.map((scuola) => ({
