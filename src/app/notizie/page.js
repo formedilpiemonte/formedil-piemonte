@@ -3,7 +3,7 @@ import Link from 'next/link'
 import NewsCard from '@/components/NewsCard'
 
 // Importa i dati delle news
-import newsData from '../../../public/data/news.json'
+import newsData from '@/data/news.json'
 
 export default function Notizie() {
   // Ordina le news per data (più recenti prima)
