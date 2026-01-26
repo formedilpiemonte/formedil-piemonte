@@ -3,7 +3,7 @@ import Link from 'next/link'
 import MapSection from '@/components/MapSection'
 
 // Importa i dati delle scuole
-import scuoleData from '../../../public/data/scuole.json'
+import newsData from '@/data/scuole.json'
 
 export default function ScuoleEdili() {
   return (
