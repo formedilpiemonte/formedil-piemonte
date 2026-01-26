@@ -235,4 +235,81 @@ export default function Giovani() {
           <div className="card">
             <p>
               Il settore delle costruzioni sta evolvendo verso modelli sostenibili, 
-              offrendo
+              offrendo ai giovani l'opportunità di contribuire a:
+            </p>
+            <ul style={{ 
+              paddingLeft: '25px', 
+              lineHeight: '1.8',
+              color: 'var(--text-gray)',
+              marginTop: '15px'
+            }}>
+              <li>Efficienza energetica e riqualificazione del patrimonio edilizio</li>
+              <li>Utilizzo di materiali sostenibili e tecnologie innovative</li>
+              <li>Digitalizzazione e BIM per progettazione intelligente</li>
+              <li>Economia circolare e riduzione degli sprechi</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="content-section">
+          <div className="card" style={{ 
+            background: 'linear-gradient(135deg, #27ae60 0%, #229954 100%)',
+            color: 'var(--white)',
+            padding: '40px',
+            textAlign: 'center'
+          }}>
+            <h3 style={{ color: 'var(--white)', marginBottom: '15px', fontSize: '1.8rem' }}>
+              Costruisci il tuo futuro nell'edilizia
+            </h3>
+            <p style={{ 
+              color: 'rgba(255, 255, 255, 0.95)', 
+              marginBottom: '25px',
+              fontSize: '1.1rem',
+              lineHeight: '1.7'
+            }}>
+              Scopri i percorsi formativi per giovani e inizia la tua carriera 
+              nel settore delle costruzioni.
+            </p>
+            <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <Link 
+                href="/corsi" 
+                className="btn btn-primary" 
+                style={{ backgroundColor: 'var(--white)', color: '#27ae60' }}
+              >
+                Scopri i corsi
+              </Link>
+              <Link href="/contatti" className="btn btn-outline-white">
+                Contattaci
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <style jsx>{`
+        .content-section {
+          margin-bottom: 40px;
+        }
+        .intro-text {
+          font-size: 1.15rem;
+          color: var(--text-gray);
+          line-height: 1.8;
+          margin-bottom: 40px;
+        }
+        .content-section h2 {
+          color: var(--primary-blue);
+          margin-bottom: 20px;
+        }
+        .content-section h3 {
+          color: var(--primary-blue);
+          margin-bottom: 10px;
+          font-size: 1.1rem;
+        }
+        .content-section p {
+          margin-bottom: 15px;
+          line-height: 1.8;
+        }
+      `}</style>
+    </>
+  )
+}
