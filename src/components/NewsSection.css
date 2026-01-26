@@ -1,0 +1,22 @@
+/* src/components/NewsSection.css */
+.news-section {
+  background-color: var(--light-gray);
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.news-cta {
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
