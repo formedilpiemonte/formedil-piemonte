@@ -3,7 +3,7 @@ import Link from 'next/link'
 import AgendaCard from '@/components/AgendaCard'
 
 // Importa i dati dei corsi
-import corsiData from '../../../public/data/corsi.json'
+import newsData from '@/data/corsi.json'
 
 export default function Agenda() {
   // Ordina i corsi per data di inizio
