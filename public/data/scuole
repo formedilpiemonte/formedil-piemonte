@@ -1,0 +1,63 @@
+// public/data/scuole.json
+[
+  {
+    "id": 1,
+    "nome": "Scuola Edile di Torino",
+    "citta": "Torino",
+    "provincia": "TO",
+    "indirizzo": "Corso Dante, 14",
+    "cap": "10134",
+    "telefono": "011 123456",
+    "email": "info.torino@formedilpiemonte.it",
+    "coordinate": [45.0703, 7.6869],
+    "descrizione": "Ente di formazione professionale per il settore delle costruzioni operante nell'area metropolitana di Torino."
+  },
+  {
+    "id": 2,
+    "nome": "Scuola Edile di Cuneo",
+    "citta": "Cuneo",
+    "provincia": "CN",
+    "indirizzo": "Via Roma, 28",
+    "cap": "12100",
+    "telefono": "0171 234567",
+    "email": "info.cuneo@formedilpiemonte.it",
+    "coordinate": [44.3841, 7.5426],
+    "descrizione": "Centro formativo di riferimento per le province di Cuneo e zone limitrofe."
+  },
+  {
+    "id": 3,
+    "nome": "Scuola Edile di Alessandria",
+    "citta": "Alessandria",
+    "provincia": "AL",
+    "indirizzo": "Piazza Garibaldi, 5",
+    "cap": "15121",
+    "telefono": "0131 345678",
+    "email": "info.alessandria@formedilpiemonte.it",
+    "coordinate": [44.9134, 8.6152],
+    "descrizione": "Struttura formativa al servizio delle imprese e dei lavoratori dell'alessandrino."
+  },
+  {
+    "id": 4,
+    "nome": "Scuola Edile di Novara",
+    "citta": "Novara",
+    "provincia": "NO",
+    "indirizzo": "Corso Italia, 32",
+    "cap": "28100",
+    "telefono": "0321 456789",
+    "email": "info.novara@formedilpiemonte.it",
+    "coordinate": [45.4469, 8.6219],
+    "descrizione": "Sede formativa per l'area del novarese e del Verbano-Cusio-Ossola."
+  },
+  {
+    "id": 5,
+    "nome": "Scuola Edile di Asti",
+    "citta": "Asti",
+    "provincia": "AT",
+    "indirizzo": "Via Cavour, 18",
+    "cap": "14100",
+    "telefono": "0141 567890",
+    "email": "info.asti@formedilpiemonte.it",
+    "coordinate": [44.9009, 8.2065],
+    "descrizione": "Centro di formazione per il comparto edile dell'astigiano."
+  }
+]
