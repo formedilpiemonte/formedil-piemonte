@@ -81,8 +81,8 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="navbar-menu desktop-menu">
           {menuItems.map((menu, index) => (
-            <li 
-              key={index} 
+            <li
+              key={index}
               className="navbar-item"
               onMouseEnter={() => setActiveDropdown(index)}
               onMouseLeave={() => setActiveDropdown(null)}
@@ -94,9 +94,9 @@ export default function Navbar() {
               {activeDropdown === index && (
                 <div className="dropdown-menu">
                   {menu.items.map((item, idx) => (
-                    <Link 
-                      key={idx} 
-                      href={item.href} 
+                    <Link
+                      key={idx}
+                      href={item.href}
                       className="dropdown-item"
                     >
                       {item.label}
@@ -115,13 +115,13 @@ export default function Navbar() {
           </Link>
           <button className="search-btn" aria-label="Cerca">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+              <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
             </svg>
-          </Link>
+          </button>
         </div>
 
         {/* Mobile hamburger */}
-        <button 
+        <button
           className="mobile-menu-btn"
           onClick={toggleMobileMenu}
           aria-label="Menu"
@@ -137,7 +137,7 @@ export default function Navbar() {
         <div className="mobile-menu">
           {menuItems.map((menu, index) => (
             <div key={index} className="mobile-menu-section">
-              <button 
+              <button
                 className="mobile-menu-title"
                 onClick={() => toggleDropdown(index)}
               >
@@ -149,9 +149,9 @@ export default function Navbar() {
               {activeDropdown === index && (
                 <div className="mobile-submenu">
                   {menu.items.map((item, idx) => (
-                    <Link 
-                      key={idx} 
-                      href={item.href} 
+                    <Link
+                      key={idx}
+                      href={item.href}
                       className="mobile-submenu-item"
                       onClick={toggleMobileMenu}
                     >
@@ -162,8 +162,8 @@ export default function Navbar() {
               )}
             </div>
           ))}
-          <Link 
-            href="/contatti" 
+          <Link
+            href="/contatti"
             className="mobile-menu-contact"
             onClick={toggleMobileMenu}
           >
