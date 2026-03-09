@@ -12,7 +12,7 @@ import Link from 'next/link'
 import newsData from '@/data/news.json'
 import corsiData from '@/data/corsi.json'
 import scuoleData from '@/data/scuole.json'
-import videoData from '@/data/video.json''
+import videoData from '@/data/video.json'
 
 export default function Home() {
   return (
